@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&h=800&fit=crop"
+                src="E:\Natanz frontend\Bread\src\first.jpg"
                 alt="نان صنعتگر تازه"
                 className="w-full h-full object-cover"
               />

@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            امروز به ما سر بزنید
+با خرید از ما مشتری دائم ما شوید
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             به نانوایی ما بیایید تا عطر نان تازه پخته شده را تجربه کنید و تفاوت را بچشید
@@ -25,8 +25,7 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">آدرس</h4>
                   <p className="text-gray-600">
-                    خیابان نانوایی، پلاک ۱۲۳<br />
-                    محله صنعتگران، کد پستی ۱۲۳۴۵
+                     نطنز محله خواجه ها<br />
                   </p>
                 </div>
               </div>
@@ -37,7 +36,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">تلفن</h4>
-                  <p className="text-gray-600">(۵۵۵) ۱۲۳-۴۵۶۷</p>
+                  <p className="text-gray-600">۰۹۱۳۴۲۵۸۴۳۹</p>
                 </div>
               </div>
 
