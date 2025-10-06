@@ -23,23 +23,23 @@ const Header: React.FC<HeaderProps> = ({ cartItems, onCartClick, onMenuClick, is
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
-            <h1 className="text-2xl font-bold text-amber-700 ml-2 md:ml-0">
-              🍞 Artisan Bread Shop
+            <h1 className="text-2xl font-bold text-amber-700 mr-2 md:mr-0">
+              🍞 نانوایی صنعتگر
             </h1>
           </div>
 
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex space-x-8 space-x-reverse">
             <a href="#home" className="text-gray-700 hover:text-amber-700 transition-colors">
-              Home
+              خانه
             </a>
             <a href="#products" className="text-gray-700 hover:text-amber-700 transition-colors">
-              Products
+              محصولات
             </a>
             <a href="#about" className="text-gray-700 hover:text-amber-700 transition-colors">
-              About
+              درباره ما
             </a>
             <a href="#contact" className="text-gray-700 hover:text-amber-700 transition-colors">
-              Contact
+              تماس با ما
             </a>
           </nav>
 
@@ -49,7 +49,7 @@ const Header: React.FC<HeaderProps> = ({ cartItems, onCartClick, onMenuClick, is
           >
             <ShoppingCart className="text-gray-700" size={24} />
             {totalItems > 0 && (
-              <span className="absolute -top-1 -right-1 bg-amber-600 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+              <span className="absolute -top-1 -left-1 bg-amber-600 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
                 {totalItems}
               </span>
             )}
@@ -63,28 +63,28 @@ const Header: React.FC<HeaderProps> = ({ cartItems, onCartClick, onMenuClick, is
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-md"
               onClick={onMenuClick}
             >
-              Home
+              خانه
             </a>
             <a
               href="#products"
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-md"
               onClick={onMenuClick}
             >
-              Products
+              محصولات
             </a>
             <a
               href="#about"
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-md"
               onClick={onMenuClick}
             >
-              About
+              درباره ما
             </a>
             <a
               href="#contact"
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-md"
               onClick={onMenuClick}
             >
-              Contact
+              تماس با ما
             </a>
           </nav>
         )}

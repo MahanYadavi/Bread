@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShoppingCart, Plus } from 'lucide-react';
+import { Plus } from 'lucide-react';
 import { Product } from '../types';
 
 interface ProductCardProps {
@@ -34,7 +34,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart }) => {
             className="bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors flex items-center gap-2"
           >
             <Plus size={18} />
-            Add to Cart
+            افزودن به سبد
           </button>
         </div>
       </div>

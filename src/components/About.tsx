@@ -7,10 +7,10 @@ const About: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            About Our Bakery
+            درباره نانوایی ما
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Committed to bringing you the finest artisan breads with traditional methods and premium ingredients
+            متعهد به ارائه بهترین نان‌های صنعتگر با روش‌های سنتی و مواد اولیه درجه یک
           </p>
         </div>
 
@@ -19,9 +19,9 @@ const About: React.FC = () => {
             <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-100 rounded-full mb-4">
               <Clock className="text-amber-700" size={32} />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Baked Fresh Daily</h3>
+            <h3 className="text-xl font-semibold mb-2">پخت تازه روزانه</h3>
             <p className="text-gray-600">
-              Every loaf is baked fresh each morning using traditional techniques passed down through generations.
+              هر نان هر روز صبح با استفاده از تکنیک‌های سنتی که از نسل‌ها به ارث رسیده، تازه پخته می‌شود.
             </p>
           </div>
 
@@ -29,9 +29,9 @@ const About: React.FC = () => {
             <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-100 rounded-full mb-4">
               <Heart className="text-amber-700" size={32} />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Made with Love</h3>
+            <h3 className="text-xl font-semibold mb-2">ساخته شده با عشق</h3>
             <p className="text-gray-600">
-              Our passionate bakers put their heart into every loaf, ensuring the highest quality and taste.
+              نانواهای پرشور ما قلب خود را در هر نان می‌گذارند و بالاترین کیفیت و طعم را تضمین می‌کنند.
             </p>
           </div>
 
@@ -39,9 +39,9 @@ const About: React.FC = () => {
             <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-100 rounded-full mb-4">
               <Award className="text-amber-700" size={32} />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Premium Ingredients</h3>
+            <h3 className="text-xl font-semibold mb-2">مواد اولیه درجه یک</h3>
             <p className="text-gray-600">
-              We source only the finest organic flour, natural yeast, and fresh ingredients for superior flavor.
+              ما فقط از بهترین آرد ارگانیک، خمیر مایه طبیعی و مواد اولیه تازه برای طعم برتر استفاده می‌کنیم.
             </p>
           </div>
         </div>
@@ -50,23 +50,23 @@ const About: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                Our Story
+                داستان ما
               </h3>
               <p className="text-gray-700 mb-4">
-                Since 1985, we have been crafting artisan breads that bring families together. 
-                What started as a small family bakery has grown into a beloved community staple, 
-                but our commitment to quality has never wavered.
+                از سال ۱۳۶۴، ما نان‌های صنعتگری می‌پزیم که خانواده‌ها را دور هم جمع می‌کند.
+                آنچه به عنوان یک نانوایی کوچک خانوادگی شروع شد، به یک مرکز محبوب اجتماعی تبدیل شده است،
+                اما تعهد ما به کیفیت هرگز تغییر نکرده است.
               </p>
               <p className="text-gray-700">
-                Every morning, our skilled bakers arrive before dawn to begin the time-honored 
-                process of mixing, kneading, and baking. We believe that great bread requires 
-                patience, passion, and the finest ingredients.
+                هر روز صبح، نانواهای ماهر ما قبل از طلوع آفتاب می‌رسند تا فرآیند قدیمی
+                مخلوط کردن، ورز دادن و پخت را آغاز کنند. ما معتقدیم که نان عالی نیازمند
+                صبر، اشتیاق و بهترین مواد اولیه است.
               </p>
             </div>
             <div className="rounded-xl overflow-hidden shadow-lg">
               <img
                 src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=400&fit=crop"
-                alt="Our bakery"
+                alt="نانوایی ما"
                 className="w-full h-full object-cover"
               />
             </div>

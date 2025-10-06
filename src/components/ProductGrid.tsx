@@ -8,11 +8,11 @@ interface ProductGridProps {
 }
 
 const ProductGrid: React.FC<ProductGridProps> = ({ products, onAddToCart }) => {
-  const [selectedCategory, setSelectedCategory] = useState<string>('All');
+  const [selectedCategory, setSelectedCategory] = useState<string>('همه');
 
-  const categories = ['All', ...Array.from(new Set(products.map(p => p.category)))];
+  const categories = ['همه', ...Array.from(new Set(products.map(p => p.category)))];
 
-  const filteredProducts = selectedCategory === 'All'
+  const filteredProducts = selectedCategory === 'همه'
     ? products
     : products.filter(p => p.category === selectedCategory);
 
@@ -21,10 +21,10 @@ const ProductGrid: React.FC<ProductGridProps> = ({ products, onAddToCart }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Our Fresh Breads
+            نان‌های تازه ما
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Handcrafted with care using premium ingredients and traditional baking methods
+            دست‌ساز با دقت، با استفاده از مواد اولیه درجه یک و روش‌های پخت سنتی
           </p>
         </div>
 
